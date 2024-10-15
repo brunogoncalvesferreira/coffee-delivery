@@ -1,0 +1,55 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 1.25rem;
+  gap: 1.25rem;
+
+  width: 16.875rem;
+  height: 18.75rem;
+
+  background: #f3f3f3;
+  border-radius: 6px 36px;
+
+  img {
+    width: 7.5rem;
+    height: 7.5rem;
+  }
+
+  h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 130%;
+    text-align: center;
+    color: #403937;
+  }
+
+  strong {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 130%;
+    text-align: center;
+    color: #574f4d;
+  }
+
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0.5rem;
+    gap: 0.5rem;
+
+    width: 7.5rem;
+
+    background: #7789f1;
+    border: 0;
+    border-radius: 6px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+}
